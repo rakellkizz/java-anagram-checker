@@ -1,42 +1,42 @@
-Verificador de Anagramas em Java
-Este projeto implementa um verificador de anagramas utilizando a linguagem Java. O programa recebe duas palavras como entrada, compara seus caracteres e determina se são anagramas.
+# 🔤 Verificador de Anagramas em Java
 
-Funcionalidades:
-✅ Aceita duas palavras como entrada via Scanner
-✅ Converte os caracteres para minúsculas para garantir comparações corretas
-✅ Ordena os caracteres manualmente usando Bubble Sort (sem depender de Arrays.sort())
-✅ Exibe a mensagem "Anagrams" caso as palavras sejam anagramas e "Not Anagrams" caso contrário
+Este projeto implementa um verificador de anagramas utilizando a linguagem **Java**.  
+O programa recebe duas palavras como entrada, compara seus caracteres e determina se são anagramas.
 
-Tecnologias utilizadas:
-Java
+---
 
-Estruturas de dados (arrays e ordenação)
+## ✅ Funcionalidades
 
-Entrada de dados via Scanner
+- Recebe duas palavras como entrada via `Scanner`
+- Converte os caracteres para minúsculas para garantir comparações corretas
+- Ordena os caracteres **manualmente usando Bubble Sort** (sem depender de `Arrays.sort()`)
+- Exibe:
+  - `"Anagrams"` se as palavras forem anagramas
+  - `"Not Anagrams"` caso contrário
 
-Como funciona?
-O usuário insere duas palavras.
+---
 
-O programa converte as palavras para minúsculas e as transforma em arrays de caracteres.
+## 🛠️ Tecnologias Utilizadas
 
-Os arrays são ordenados manualmente utilizando o algoritmo Bubble Sort.
+- Java
+- Estruturas de dados (arrays e ordenação)
+- Entrada de dados via `Scanner`
 
-Após a ordenação, os arrays são comparados caractere por caractere.
+---
 
-Se forem idênticos, as palavras são anagramas. Caso contrário, não são.
+## ⚙️ Como Funciona
 
-Como executar:
+1. O usuário insere duas palavras.
+2. O programa converte as palavras para minúsculas e as transforma em arrays de caracteres.
+3. Os arrays são ordenados manualmente utilizando o algoritmo **Bubble Sort**.
+4. Após a ordenação, os arrays são comparados caractere por caractere.
+5. Se forem idênticos, as palavras são anagramas. Caso contrário, não são.
+
+---
+
+## ▶️ Como Executar
+
 Compile o código com:
 
-sh
-Copiar
-Editar
+```sh
 javac Solution.java
-Execute o programa:
-
-sh
-Copiar
-Editar
-java Solution
-Insira duas palavras para verificar se são anagramas.
-
